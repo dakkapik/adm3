@@ -9,6 +9,6 @@ const readline = require('readline').createInterface({
 let i
 
 while(true) {
-    client.write(i)
+    client.write(`${i}`)
     i++
 }

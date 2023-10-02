@@ -1,0 +1,19 @@
+{
+  "name": "adm3",
+  "version": "3.0.0",
+  "description": "server and recievers for inertial sensor",
+  "main": "index.js",
+  "scripts": {
+    "start":"node ./server/receiver",
+    "emit": "node ./server/emitter",
+    "receiver": "node ./server/receiver",
+    "test": "test"
+  },
+  "keywords": [
+    "i2c",
+    "websocket",
+    "inertial-sensor"
+  ],
+  "author": "DakkaPik",
+  "license": "MIT"
+}

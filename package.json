@@ -4,8 +4,8 @@
   "description": "server and recievers for inertial sensor",
   "main": "index.js",
   "scripts": {
-    "start":"node ./server/receiver",
-    "emit": "node ./server/emitter",
+    "start":"node ./server/receiver/main",
+    "emit": "node ./server/emitter/main",
     "receiver": "node ./server/receiver",
     "test": "test"
   },

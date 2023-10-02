@@ -1,14 +1,12 @@
 const net = require("net")
-const settings = require("./settings.json")
+const settings = require("../../settings.json")
 
 const controller = new AbortController();
-
 
 const server = net.createServer((socket) => {
     socket.on("data", (data)=> {
         console.log(data.toString())
     })
-
     // socket.end('goodbye\n');
 }).on('error', (err) => {
     // Handle errors here.
@@ -23,3 +21,5 @@ server.listen({
 
 // Later, when you want to close the server.
 controller.abort();
+
+module.exports = server;

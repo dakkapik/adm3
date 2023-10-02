@@ -1,0 +1,1 @@
+const receiver = require("./receiver")

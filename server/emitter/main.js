@@ -6,8 +6,9 @@ const readline = require('readline').createInterface({
     output: process.stdout,
 });
 
-readline.question(`What's your name?`, name => {
-    client.write(name)
-    // console.log(`Hi ${name}!`);
-    readline.close();
-});
+let i
+
+while(true) {
+    client.write(i)
+    i++
+}

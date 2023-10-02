@@ -6,7 +6,7 @@
   "scripts": {
     "start":"node ./server/receiver/main",
     "emit": "node ./server/emitter/main",
-    "receiver": "node ./server/receiver",
+    "receiver": "node ./server/receiver/main",
     "test": "test"
   },
   "keywords": [
